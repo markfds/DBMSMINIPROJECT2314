@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="register-container">
+
+        <form action="../api/register.php" method="post" enctype="multipart/form-data">
+            <h2 class="header2">Register</h2>
+            <input type="text"  name="name" class="input-nm" placeholder="Enter Name"><br><br>
+            <input type="number" class="input-mb" name="mobile" placeholder="Enter Mobile"><br><br>
+            <input type="password" class="input-pwd" name="password" placeholder="Password"><br><br>
+            <input type="password" class="input-cpwd" name="cpassword" placeholder="Confirm Password"><br><br>
+            <input type="text" class="input-addr" name="address" placeholder="Address"><br><br>
+            <p class="p">Upload Image:</p><input type="file" name="photo"><br><br>
+            <p class="p">Select Role:</p><select name="role" class="voter-class">
+                <option value="1">Voter</option>
+                <option value="2">Candidate</option>
+            </select><br><br>
+            <button class="reg-button">Register</button><br>
+            <p class="p">Already user? <a href="../login.html">Login here</a></p>
+        </form>
+    </div>
+    
+</body>
+</html>

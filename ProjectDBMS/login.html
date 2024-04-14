@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        <form action="api/login.php" class="login" method="post">
+            <h3 class="header">Login</h3>
+            <input type="number" class="input-mb" name="mobile" placeholder="Enter Mobile"><br><br>
+            <input type="password" class="input-pwd" name="password" placeholder="Enter Password"><br><br>
+            <select name="role" class="voter-class">
+                <option value="1">Voter</option>
+                <option value="2">Party</option>
+            </select><br><br>
+            <button class="login-btn">Login</button><br><br>
+            <p class="p"> New user? <a href="routes/register.html">Register here</a></p>
+    
+        </form>
+    </div>
+    
+</body>
+</html>
