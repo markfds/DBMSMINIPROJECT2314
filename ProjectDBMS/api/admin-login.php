@@ -7,7 +7,7 @@ $password = $_POST['password'];
 
     $checkadmin = mysqli_query($connect, "SELECT * FROM admins WHERE mobile = '$mobile' AND password = '$password'");
     $checkuser = mysqli_query($connect, "SELECT * FROM voters");
-    // Initialize an empty array to store group data
+   
 $userdata = array();
 
 // Check if the query was successful

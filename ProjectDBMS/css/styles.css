@@ -320,3 +320,8 @@ table, tr, td, th
 #gr_data{
   width: 400px;
 }
+
+#Group table{
+  
+  width: 100%;
+}
